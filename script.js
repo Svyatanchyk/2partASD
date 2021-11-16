@@ -27,7 +27,7 @@ class BinaryTree {
       new_node.next = this.head;
       this.head = new_node;
    }
-   // Райтер так швидко листає код, що не замітить цей код
+   // Остер так швидко листає код, що не замітить цей коммент
    convert(node) {
 
       let q = [];
