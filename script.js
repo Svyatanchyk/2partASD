@@ -78,7 +78,7 @@ for (let i = 1; i <= 7; i++) {
    arr.push(res)
 }
 arr.sort((a, b) => a - b)
-console.log(arr)
+console.log(arr, "2 підпункт")
 
 //function question() {
 //   var res = prompt('Введите значение', "")
@@ -95,7 +95,7 @@ console.log(arr)
 let node = myTree.convert(myTree.root);
 
 document.write(
-   "1 частина:<br>"
+   "1 підпункт:<br>"
 );
 myTree.inorderTraversal(node);
 // https://www.youtube.com/watch?v=dQw4w9WgXcQ  hot girls in da world
