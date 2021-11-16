@@ -1,3 +1,4 @@
+'use strict'
 class Node {
    constructor(d) {
       this.data = d;
@@ -71,7 +72,7 @@ let myTree = new BinaryTree();
 
 let arr = []
 
-for (let i = 1; i <= 6; i++) {
+for (let i = 1; i <= 7; i++) {
    var res = prompt('Введите значение', "")
    myTree.push(res);
    arr.push(res)
@@ -91,18 +92,10 @@ console.log(arr)
 //}
 // ne rabotaet
 
-
-
-//myTree.push(36);
-//myTree.push(30);
-//myTree.push(25);
-//myTree.push(15);
-//myTree.push(12);
-//myTree.push(10);
 let node = myTree.convert(myTree.root);
 
 document.write(
-   "Работает и хорошо:<br>"
+   "constructed Binary Tree is:<br>"
 );
 myTree.inorderTraversal(node);
 // https://www.youtube.com/watch?v=dQw4w9WgXcQ  hot girls in da world
