@@ -95,7 +95,7 @@ console.log(arr)
 let node = myTree.convert(myTree.root);
 
 document.write(
-   "constructed Binary Tree is:<br>"
+   "1 частина:<br>"
 );
 myTree.inorderTraversal(node);
 // https://www.youtube.com/watch?v=dQw4w9WgXcQ  hot girls in da world
